@@ -1,4 +1,4 @@
-# test
+# test-case
 
 ## Project setup
 ```
