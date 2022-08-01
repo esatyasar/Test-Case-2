@@ -1,0 +1,41 @@
+$backgroundColor: #f2f1f1;
+
+.headerTopContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $backgroundColor;
+    width: 100%;
+    height: 3rem;
+    margin: 0;
+}
+.headerTopLeft{
+    margin-left: 15px;
+    width: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+.fa-brands{
+    color:$boldGray;
+}
+.HeaderTopRight{
+    height: 100%;
+    margin-right: 15px;
+    width: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.helpTitle{
+    width: 50%;
+    color:$boldGray;
+}
+.blogTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    color: white;
+    background-color: $red;
+}

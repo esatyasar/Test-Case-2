@@ -1,0 +1,33 @@
+
+div{
+    border: 1px black solid;
+}
+.HeaderMiddleContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4rem;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: $red;
+}
+.searchSection{
+    display: flex;
+    width: 40%;
+    height: 75%;
+}
+.searchBar{
+    width: 100%;
+}
+.UserCartSection{
+    display: flex;
+}
+.userSection{
+    display: flex;
+}
+cartSection{
+    display: flex;
+}
