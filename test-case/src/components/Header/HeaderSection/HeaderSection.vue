@@ -2,13 +2,14 @@
   <header>
     <HeaderTop />
     <HeaderMiddle />
+    <HeaderBottom />
   </header>
 </template>
 
 <script>
 import HeaderTop from '../HeaderTop/HeaderTop.vue';
 import HeaderMiddle from '../HeaderMiddle/HeaderMiddle.vue'
-
+import HeaderBottom from '../HeaderBottom/HeaderBottom.vue'
 
 export default {
   name: 'HeaderSection',
@@ -16,7 +17,8 @@ export default {
   },
   components:{
     HeaderTop,
-    HeaderMiddle
+    HeaderMiddle,
+    HeaderBottom,
   }
 }
 </script>
@@ -27,6 +29,6 @@ export default {
 @import '@/components/Header/HeaderSection/HeaderSection.scss';
 
 h3 {
-  color:$red;
+  color:$primaryColor;
 }
 </style>

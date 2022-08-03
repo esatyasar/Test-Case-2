@@ -1,1 +1,67 @@
-$black: #000;
+.footer{
+    background-color: $backgroundColor;
+    min-height: 20rem;
+}
+.footerMenuContainer{
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    padding-top: 30px;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+h3{
+    margin-bottom: 15px;
+}
+p{
+    margin-bottom: 5px;
+    cursor:pointer;
+}
+span{
+    font-weight: bold;
+}
+.line{
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 2rem;
+}
+.footerBottom{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 2rem;
+}
+.footerLogo{
+    width: 20%;
+    height: 100%;
+    float: right;
+    cursor: pointer;
+}
+.fa-brands{
+    font-size: 1.5rem;
+    margin-right: 20px;
+    cursor:pointer;
+}
+.mailTitle{
+    margin-top: 30px;
+}
+input{
+    width: 80%;
+    padding: 5px;
+    background-color: $backgroundColor;
+    border: 1px rgb(213, 213, 213) solid;
+}
+.mailSection{
+    display: flex;
+    height: 3rem;
+}
+button{
+    width: 20%;
+    background-color: $primaryColor;
+    border:none;
+}
+.fa-solid{
+    color:$white;
+    cursor:pointer;
+}

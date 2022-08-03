@@ -12,19 +12,32 @@
                 id="search" 
                 placeholder="Ne Aramistiniz.."
             > 
-            <i class="fa-solid fa-magnifying-glass"></i>
+            <div class="searchIcon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
         </div>
         <div class="UserCartSection">
             <div class="userSection">
-                <i class="fa-solid fa-user"></i>        
-                <p>Giris Yap</p>
-                <p><span style="font-size:8px;">veya uye ol</span>"></p>
-                <i class="fa-light fa-angle-down"></i>
+                <div class="userIcon">
+                    <i class="fa-solid fa-user"></i>        
+                </div>
+                <div class="userText">
+                    <h4 class="userLogin">Giris Yap</h4>
+                    <h3 class="userSignup">veya uye ol</h3>
+                </div>
+                <div class="userAngleDown">
+                    <i class="fa-solid fa-angle-down"></i> 
+                </div>
             </div>
             <div class="cartSection">
-                <i class="fa-solid fa-cart-shopping"></i>
-                <p>Sepet</p>
-                <p>0.00TL</p>
+                <div class="cartIcon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="cartText">
+                    <h4 class="cartTitle">Sepet</h4>
+                    <h4 class="cartAmount">0.00TL</h4>
+                </div>
+                
             </div>
         </div>
     </div>

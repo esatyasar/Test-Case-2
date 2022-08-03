@@ -1,18 +1,21 @@
 
-div{
-    border: 1px black solid;
-}
+// div{
+//     border: 1px black solid;
+// }
 .HeaderMiddleContainer{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 4rem;
+    height: 5rem;
 }
 .logo{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: $red;
+    align-items: center;
+    color: $primaryColor;
+    width: 30%;
+    cursor:pointer;
 }
 .searchSection{
     display: flex;
@@ -21,13 +24,79 @@ div{
 }
 .searchBar{
     width: 100%;
+    padding: 5px;
+    background-color: $backgroundColor;
+    border: 1px rgb(213, 213, 213) solid;
+}
+.searchIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $primaryColor;
+    color: $white;
+    width: 8%;
 }
 .UserCartSection{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 75%;
 }
 .userSection{
     display: flex;
+    width:30%;
+    height: 100%;
+    margin-right: 10px;
 }
-cartSection{
+.userIcon{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    color: $secondaryColor;
+    margin-right: 5px;
 }
+.userText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor:pointer;
+}
+.userLogin{
+    color: $black;
+}
+.userSignup{
+    font-size: 0.7rem;
+    color: $secondaryColor;
+}
+.userAngleDown{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:25%;
+    margin-left: 5px;
+    color: $secondaryColor;
+    cursor:pointer;
+}
+.cartSection{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width:40%;
+}
+.cartIcon, .cartText{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+}
+.fa-solid{
+    font-size: 1.5rem;
+}
+.cardTitle, .cardAmount{
+    font-size: 1.2rem;
+}
+
